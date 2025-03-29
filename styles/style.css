@@ -25,6 +25,7 @@ section {
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
+    border: none;
     transition: all 0.5s ease-in-out;
 }
 
@@ -132,6 +133,36 @@ section {
     width: 320px;
     height: 465px;
     margin: 68px 0px;
+}
+
+
+/* Appointment Section Style */
+
+
+.appointment-section {
+    background: linear-gradient(rgba(255, 0, 0, .1), rgba(255, 0, 0, 0));
+    text-align: center;
+    margin-bottom: 120px;
+    border-radius: 16px;
+}
+
+.appointment-container {
+    padding: 100px;
+}
+
+.appointment-container h2 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 56px;
+    color: #070211;
+}
+
+.appointment-container h2:nth-child(3) {
+    margin-bottom: 48px;
+}
+
+.appointment-design {
+    color: #FF0000;
 }
 
 /* Footer Style */
