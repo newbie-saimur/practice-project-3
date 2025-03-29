@@ -42,6 +42,34 @@ section {
     margin: 0 auto;
 }
 
+/* Off Section Design */
+
+.off-section {
+    margin: 120px auto;
+    text-align: center;
+}
+
+.off-section-name {
+    font-size: 88px;
+    color: #FF0000;
+    font-weight: 800;
+    margin-bottom: 48px;
+}
+
+.off-title {
+    font-size: 24px;
+    color: #FF0000;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.off-category {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 48px;
+    color: #070211;
+}
+
 /* Footer Style */
 
 footer {
