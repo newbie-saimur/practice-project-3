@@ -16,6 +16,31 @@ section {
     font-family: "Merriweather", serif;
 }
 
+/* Header Section Style */
+
+.header-banner {
+    background: linear-gradient(rgba(7,2,17,1),rgba(7,2,17,0)), url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    padding: 180px 0;
+}
+
+.header-banner-grettings {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.header-banner-title {
+    font-size: 72px;
+    color: #fff;
+    line-height: 95px;
+    font-weight: bolder;
+    text-align: center;
+    width: 632px;
+    margin: 0 auto;
+}
 
 /* Footer Style */
 
