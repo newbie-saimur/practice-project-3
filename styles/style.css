@@ -16,6 +16,23 @@ section {
     font-family: "Merriweather", serif;
 }
 
+.btn-primary {
+    background-color: #FF0000;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-primary:hover {
+    color: #FF0000;
+    background-color: #fff;
+}
+
 /* Header Section Style */
 
 .header-banner {
@@ -68,6 +85,53 @@ section {
     font-weight: bold;
     margin-bottom: 48px;
     color: #070211;
+}
+
+/* Call-To-Action Section */
+
+.call-to-action-section {
+    background-image: linear-gradient(to right, rgba(7,2,17,1),rgba(7,2,17,0)), url('../resources/Vectorrr.png');
+    margin-bottom: 120px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.call-to-action-content {
+    width: 680px;
+    margin: 126px;
+    margin-right: 0px;
+}
+
+.call-to-action-title {
+    font-size: 64px;
+    font-weight: bolder;
+    line-height: 88px;
+    width: 640px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.call-to-action-description {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 38px;
+    width: 680px;
+}
+
+.call-to-action-image {
+    width: 640px;
+}
+
+.call-to-action-image img {
+    width: 320px;
+    height: 465px;
+    margin: 68px 0px;
 }
 
 /* Footer Style */
