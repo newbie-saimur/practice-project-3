@@ -138,7 +138,6 @@ section {
 
 /* Appointment Section Style */
 
-
 .appointment-section {
     background: linear-gradient(rgba(255, 0, 0, .1), rgba(255, 0, 0, 0));
     text-align: center;
@@ -163,6 +162,72 @@ section {
 
 .appointment-design {
     color: #FF0000;
+}
+
+/* Offer Section Design */
+
+.offer-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.offer-container {
+    width: 37%;
+}
+
+.offer-image {
+    width: 40%;
+}
+
+.offer-details {
+    width: 23%;
+}
+
+.offer-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.coming-soon {
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin-bottom: 22px;
+}
+
+.offer-description {
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    line-height: 32px;
+    margin-bottom: 48px;
+    width: 392px;
+}
+
+.offer-image img {
+    width: 364px;
+    border: 12px solid #FF0000;
+    border-radius: 50%;
+    padding: 18px;
+}
+
+.offer-year {
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.details {
+    width: 275px;
+    margin-bottom: 48px;
+}
+
+.offer-details img {
+    width: 140px;
 }
 
 /* Footer Style */
