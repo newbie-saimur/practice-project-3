@@ -230,6 +230,79 @@ section {
     width: 140px;
 }
 
+/* Sale Section Design */
+
+.sale-content {
+    text-align: center;
+}
+
+.sale-sub-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #070211;
+    margin-bottom: 16px;
+}
+
+.sale-title {
+    font-size: 72px;
+    font-weight: bold;
+    color: #070211;
+    margin-bottom: 28px;
+}
+
+.sale-title-style {
+    color: #FF0000;
+}
+
+.sale-description {
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    line-height: 32px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+    width: 1068px;
+}
+
+.sale-image-top {
+    display: flex;
+}
+
+.sale-image-1 {
+    margin-top: 60px;
+    z-index: 5;
+    margin-left: 50px;
+}
+
+.sale-image-1 img{
+    width: 674px;
+}
+
+.sale-image-2 {
+    margin-right: -100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    z-index: 2;
+}
+
+.sale-image-2 img{
+    width: 220px;
+}
+
+.sale-image-3 {
+    margin-left: -2.5px;
+}
+
+.sale-image-3 img{
+    width: 429px;
+}
+
+.sale-image-bottom {
+    margin-top: -195px;
+    z-index: 1;
+    margin-bottom: 120px;
+}
+
+
 /* Portfolio Section Style */
 
 .portfolio-section {
