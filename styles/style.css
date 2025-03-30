@@ -230,6 +230,69 @@ section {
     width: 140px;
 }
 
+
+/* Newsletter Section Style */
+
+.newsletter-section {
+    background-color: rgba(255, 0, 0, .05);
+    text-align: center;
+    padding: 80px 0;
+    margin-bottom: 120px;
+}
+
+.newsletter-image {
+    width: 150px;
+}
+
+.newsletter-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #070211;
+    margin-bottom: 22px;
+}
+
+.newsletter-description {
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    line-height: 32px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    width: 896px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-form-text-input {
+    width: 438px;
+    padding: 25px 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: none;
+}
+
+.newsletter-form-text-input::placeholder {
+    font-size: 18px;
+    color: rgba(7, 2, 17, 0.3);
+}
+
+.newsletter-form-submit {
+    width: 210px;
+    padding: 21.5px 56px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #FF0000;
+    margin-left: -5px;
+}
+
+
 /* Footer Style */
 
 footer {
